@@ -1,0 +1,10 @@
+.p-ball {
+  width: 240px;
+  height: 240px;
+  @extend .c-flexCentering;
+  @extend .c-flexCentering--row;
+  &__item {
+    width: 30px;
+    height: 30px;
+  }
+}
